@@ -2,6 +2,10 @@
 
 ### NOTE: **Example data is provided**
 
+### **example video:**
+![2025-04-1423-07-51-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/c81f54d9-b3e9-4876-9c44-120793bf5acc)
+
+
 ## How to setup:
 ------------- NECCESSARY ------------
 
