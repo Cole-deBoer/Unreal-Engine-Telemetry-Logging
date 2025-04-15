@@ -12,7 +12,8 @@
 - Extract the TelemetryTest zip file
 - open the file's unreal project
 - run the Editor Utility Widget
-- Click the button 
+- Click the button
+- Check the discord (optional) https://discord.gg/5MQa7JX2
 
 ------- SHOULD BE UNNECCESSARY -------
 
