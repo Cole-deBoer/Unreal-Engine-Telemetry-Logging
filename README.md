@@ -1,9 +1,16 @@
 # PG27_ColedeBoer_A1_DevTools
 
 ### NOTE: **Example data is provided**
-setup should not be neccessary
 
 ## How to setup:
+------------- NECCESSARY ------------
+
+- Drag the provided Telemetry folder into a new unreal project
+- Run the Editor Utility Widget
+- Click the button
+
+------- SHOULD BE UNNECCESSARY -------
+
 - The User must ensure a valid JSON file is exported into the data folder
 - ![image](https://github.com/user-attachments/assets/53cf85a8-0447-4682-8849-10105fdab8cf)
 
