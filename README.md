@@ -9,9 +9,10 @@
 ## How to setup:
 ------------- NECCESSARY ------------
 
-- Drag the provided Telemetry folder into a new unreal project
-- Run the Editor Utility Widget
-- Click the button
+- Extract the TelemetryTest zip file
+- open the file's unreal project
+- run the Editor Utility Widget
+- Click the button 
 
 ------- SHOULD BE UNNECCESSARY -------
 
