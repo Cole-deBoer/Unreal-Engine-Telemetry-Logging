@@ -25,4 +25,6 @@
 - ![image](https://github.com/user-attachments/assets/5fa1a90c-c390-40c4-b56b-9318a58ede05)
 
 ## How to use:
-the Node.js backend should be running at all times, so it should be as easy as clicking a button in unreal. 
+- Add the .env file (provided via discord DM to TA Spencer) to the PG27_ColedeBoer_A1_DevTools directory
+- Install Nodemon by running the command npm install nodemon in the same PG27_ColedeBoer_A1_DevTools directory
+- Start the Node.js Backend by running the command npm start within the PG27_ColedeBoer_A1_DevTools directory
