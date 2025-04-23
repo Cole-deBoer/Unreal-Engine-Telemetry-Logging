@@ -2,7 +2,6 @@ const {initializeApp} = require("firebase/app");
 const { getDatabase, ref, child, get, onValue, onChildChanged, set } = require("firebase/database");
 
 const { Client, Events, GatewayIntentBits, SlashCommandBuilder, Message } = require('discord.js');
-const getLastDataEntry = require('../SlashCommands/getLastDataEntry');
 require('dotenv').config();
 
 // Your web app's Firebase configuration
@@ -34,16 +33,11 @@ const client = new Client({
 });
 
 // When the client is ready, run this code (only once).
-// The distinction between `client: Client<boolean>` and `readyClient: Client<true>` is important for TypeScript developers.
-// It makes some properties non-nullable.
 client.once(Events.ClientReady, readyClient => {
 	console.log(`Ready! Logged in as ${readyClient.user.tag}`);
 
     const test = new SlashCommandBuilder().setName('test').setDescription('bot replies that it is active');
     client.application.commands.create(test, process.env.SERVER_ID)  
-
-    const GetData = new SlashCommandBuilder().setName('getdata').setDescription('bot replies with the most recent data');
-    client.application.commands.create(GetData, process.env.SERVER_ID)  
 });
 
 client.on(Events.InteractionCreate, interaction => {
@@ -83,7 +77,7 @@ onChildChanged(dataRef, async (snapshot) => {
         {
             console.log(`------- \n${JSON.stringify(JsonData[i])}`);
 
-            client.channels.cache.get("1357820815999107219").send(`values updated: \n **${JsonData[i].Name || "Unkown player"}** ${(await GetPuzzleTime(JsonData[i].puzzles)).toString()}`);
+            client.channels.cache.get("1357820815999107219").send(`values updated: \n **${JsonData[i].Name || "Unknown player"}** ${(await GetPuzzleTime(JsonData[i].puzzles)).toString()}`);
         }
     }
 
