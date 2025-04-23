@@ -19,7 +19,9 @@
 - NOTE: the json must have new data, otherwise it will not update to the discord server.
 
 - The JSON should look something like this:
-- ![image](https://github.com/user-attachments/assets/5fa1a90c-c390-40c4-b56b-9318a58ede05)
+- ![image](https://github.com/user-attachments/assets/5fa1a90c-c390-40c4-b56b-9318a58ede05)  
+
+- NOTE: the json must have the name dataTest.json
 
 ## How to use:
 - Add the .env file (provided via discord DM to TA Spencer) to the PG27_ColedeBoer_A1_DevTools directory
