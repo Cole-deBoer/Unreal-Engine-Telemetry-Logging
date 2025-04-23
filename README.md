@@ -8,22 +8,21 @@
 
 ## How to setup:
 ------------- NECCESSARY ------------
-- run the command 'python.exe pip install firebase-admin' within the directory of C:\Program Files\Epic Games\UE_5.5\Engine\Binaries\ThirdParty\Python3\Win64
 - Extract the TelemetryTest zip file
 - open the file's unreal project
 - run the Editor Utility Widget
 - Click the button
-- Check the discord (optional) https://discord.gg/5MQa7JX2
+- Check the discord (optional)
 
 ------- SHOULD BE UNNECCESSARY -------
 
 - The User must ensure a valid JSON file is exported into the data folder
 - ![image](https://github.com/user-attachments/assets/53cf85a8-0447-4682-8849-10105fdab8cf)
 
+- NOTE: the json must be have new data, otherwise it will not update to the discord server.
+
 - The JSON should look something like this:
 - ![image](https://github.com/user-attachments/assets/5fa1a90c-c390-40c4-b56b-9318a58ede05)
-
-
 
 ## How to use:
 the Node.js backend should be running at all times, so it should be as easy as clicking a button in unreal. 
