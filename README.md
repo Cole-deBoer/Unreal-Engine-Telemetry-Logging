@@ -9,7 +9,7 @@ This system consists of three main components:
 - **Firebase**: Stores the data that gets forwarded to the Discord bot.
 - **Discord Bot**: Broadcasts Real-time updates to Discord channels
 
-### **Example video:**
+### **Example Video:**
 ![2025-04-1423-07-51-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/c81f54d9-b3e9-4876-9c44-120793bf5acc)
 
 ## Prerequisites
